@@ -28,7 +28,7 @@ Moves:
 	move NIGHT_SLASH,  EFFECT_SP_DEF_DOWN_HIT,    90, DARK,         100, 20,  20
 	move AIR_SLASH,    EFFECT_FLINCH_HIT,         80, FLYING,        95, 20,  30
 	move SWORDS_DANCE, EFFECT_ATTACK_UP_2,         0, NORMAL,       100, 30,   0
-	move CUT,          EFFECT_DEF_DOWN_HIT,       50, NORMAL,        95, 30,  40
+	move CUT,          EFFECT_DEFENSE_DOWN_HIT,       50, NORMAL,        95, 30,  40
 	move GUST,         EFFECT_GUST,               40, FLYING,       100, 35,   0
 	move WING_ATTACK,  EFFECT_NORMAL_HIT,         60, FLYING,       100, 35,   0
 	move HURRICANE,    EFFECT_CONFUSE_HIT,       120, FLYING,       80,  20,  30
