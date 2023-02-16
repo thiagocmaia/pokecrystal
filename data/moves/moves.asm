@@ -24,17 +24,17 @@ Moves:
 	move ICE_PUNCH,    EFFECT_FREEZE_HIT,         75, ICE,          100, 25,  15
 	move THUNDERPUNCH, EFFECT_PARALYZE_HIT,       75, ELECTRIC,     100, 25,  15
 	move SCRATCH,      EFFECT_NORMAL_HIT,         40, NORMAL,       100, 35,   0
-	move BUGBITE,      EFFECT_NORMAL_HIT,         40, BUG,          100, 30,   0
-	move NIGHT_SLASH,  EFFECT_SP_DEF_DOWN_HIT,    90, DARK,         100, 20,  20
-	move AIR_SLASH,    EFFECT_FLINCH_HIT,         80, FLYING,        95, 20,  30
+	move VICEGRIP,      EFFECT_NORMAL_HIT,         40, BUG,          100, 30,   0
+	move GUILLOTINE,  EFFECT_SP_DEF_DOWN_HIT,    90, DARK,         100, 20,  20
+	move RAZOR_WIND,    EFFECT_FLINCH_HIT,         80, FLYING,        95, 20,  30
 	move SWORDS_DANCE, EFFECT_ATTACK_UP_2,         0, NORMAL,       100, 30,   0
 	move CUT,          EFFECT_DEFENSE_DOWN_HIT,       50, NORMAL,        95, 30,  40
 	move GUST,         EFFECT_GUST,               40, FLYING,       100, 35,   0
 	move WING_ATTACK,  EFFECT_NORMAL_HIT,         60, FLYING,       100, 35,   0
-	move HURRICANE,    EFFECT_CONFUSE_HIT,       120, FLYING,       80,  20,  30
+	move WHIRLWIND,    EFFECT_CONFUSE_HIT,       120, FLYING,       80,  20,  30
 	move FLY,          EFFECT_FLY,                90, FLYING,        95, 20,   0
 	move BIND,         EFFECT_TRAP_TARGET,        60, NORMAL,       100, 20,   0
-	move POISON_JAB,   EFFECT_POISON_HIT,         80, POISON,        95, 20,  30
+	move SLAM,          EFFECT_POISON_HIT,         80, POISON,        95, 20,  30
 	move VINE_WHIP,    EFFECT_NORMAL_HIT,         40, GRASS,        100, 20,   0
 	move STOMP,        EFFECT_STOMP,              75, NORMAL,       100, 20,  30
 	move DOUBLE_KICK,  EFFECT_DOUBLE_HIT,         30, FIGHTING,     100, 30,   0
@@ -50,7 +50,7 @@ Moves:
 	move BODY_SLAM,    EFFECT_SPEED_DOWN_HIT,     90, NORMAL,       100, 15,  50
 	move WRAP,         EFFECT_TRAP_TARGET,        35, NORMAL,        95, 20,   0
 	move TAKE_DOWN,    EFFECT_RECOIL_HIT,        100, NORMAL,        95, 20,   0
-	move BERSERK,      EFFECT_MULTI_HIT,          40, NORMAL,        80, 20,   0
+	move THRASH,      EFFECT_MULTI_HIT,          40, NORMAL,        80, 20,   0
 	move DOUBLE_EDGE,  EFFECT_RECOIL_HIT,        120, NORMAL,       100, 25,   0
 	move TAIL_WHIP,    EFFECT_DEFENSE_DOWN,        0, NORMAL,       100, 30,   0
 	move POISON_STING, EFFECT_POISON_HIT,         40, POISON,       100, 35,  30
@@ -59,7 +59,7 @@ Moves:
 	move LEER,         EFFECT_DEFENSE_DOWN,        0, NORMAL,       100, 30,   0
 	move BITE,         EFFECT_FLINCH_HIT,         60, DARK,         100, 25,  30
 	move GROWL,        EFFECT_ATTACK_DOWN,         0, NORMAL,       100, 40,   0
-	move HYPER_VOICE,  EFFECT_CONFUSE_HIT,       100, NORMAL,       100, 20,  20
+	move ROAR,         EFFECT_CONFUSE_HIT,       100, NORMAL,       100, 20,  20
 	move SING,         EFFECT_SLEEP,               0, NORMAL,        75, 15,   0
 	move SUPERSONIC,   EFFECT_CONFUSE,             0, NORMAL,        75, 20,   0
 	move SONICBOOM,    EFFECT_STATIC_DAMAGE,      50, NORMAL,        90, 20,   0
@@ -75,14 +75,14 @@ Moves:
 	move BLIZZARD,     EFFECT_FREEZE_HIT,        120, ICE,           80, 15,  20
 	move PSYBEAM,      EFFECT_CONFUSE_HIT,        65, PSYCHIC_TYPE, 100, 20,  20
 	move BUBBLEBEAM,   EFFECT_SPEED_DOWN_HIT,     80, WATER,        100, 20,  30
-	move SOLAR_BEAM,   EFFECT_ACCURACY_DOWN_HIT, 120, GRASS,        90,  20,  30
+	move AURORA_BEAM,   EFFECT_ACCURACY_DOWN_HIT, 120, GRASS,        90,  20,  30
 	move HYPER_BEAM,   EFFECT_SOLARBEAM,         200, NORMAL,       80,  15,   0
 	move PECK,         EFFECT_NORMAL_HIT,         40, FLYING,       100, 35,   0
 	move DRILL_PECK,   EFFECT_MULTI_HIT,          25, FLYING,        90, 20,   0
 	move SUBMISSION,   EFFECT_RECOIL_HIT,         80, FIGHTING,      90, 25,   0
 	move LOW_KICK,     EFFECT_FLINCH_HIT,         50, FIGHTING,      90, 20,  30
 	move COUNTER,      EFFECT_COUNTER,             1, FIGHTING,     100, 20,   0
-	move METEOR_CRASH, EFFECT_DEFENSE_DOWN_HIT,  120, ROCK,         80, 20,   40
+	move SEISMIC_TOSS, EFFECT_DEFENSE_DOWN_HIT,  120, ROCK,         80, 20,   40
 	move STRENGTH,     EFFECT_NORMAL_HIT,         80, NORMAL,       100, 15,   0
 	move ABSORB,       EFFECT_LEECH_HIT,          20, GRASS,        100, 20,   0
 	move MEGA_DRAIN,   EFFECT_LEECH_HIT,          40, GRASS,        100, 10,   0
