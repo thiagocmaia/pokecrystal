@@ -16,42 +16,42 @@ Moves:
 	table_width MOVE_LENGTH, Moves
 	move POUND,        EFFECT_NORMAL_HIT,         40, NORMAL,       100, 35,   0
 	move KARATE_CHOP,  EFFECT_NORMAL_HIT,         50, FIGHTING,     100, 25,   0
-	move DOUBLESLAP,   EFFECT_MULTI_HIT,          15, NORMAL,        85, 10,   0
-	move COMET_PUNCH,  EFFECT_MULTI_HIT,          18, NORMAL,        85, 15,   0
-	move MEGA_PUNCH,   EFFECT_NORMAL_HIT,         80, NORMAL,        85, 20,   0
-	move PAY_DAY,      EFFECT_PAY_DAY,            40, NORMAL,       100, 20,   0
-	move FIRE_PUNCH,   EFFECT_BURN_HIT,           75, FIRE,         100, 15,  10
-	move ICE_PUNCH,    EFFECT_FREEZE_HIT,         75, ICE,          100, 15,  10
-	move THUNDERPUNCH, EFFECT_PARALYZE_HIT,       75, ELECTRIC,     100, 15,  10
+	move DOUBLESLAP,   EFFECT_MULTI_HIT,          20, NORMAL,       100, 20,   0
+	move COMET_PUNCH,  EFFECT_MULTI_HIT,          20, FIGHTING,     100, 25,   0
+	move MEGA_PUNCH,   EFFECT_FLINCH_HIT,        100, FIGHTING,      90, 20,  30
+	move PAY_DAY,      EFFECT_PAY_DAY,            60, NORMAL,       100, 20,   0
+	move FIRE_PUNCH,   EFFECT_BURN_HIT,           75, FIRE,         100, 25,  15
+	move ICE_PUNCH,    EFFECT_FREEZE_HIT,         75, ICE,          100, 25,  15
+	move THUNDERPUNCH, EFFECT_PARALYZE_HIT,       75, ELECTRIC,     100, 25,  15
 	move SCRATCH,      EFFECT_NORMAL_HIT,         40, NORMAL,       100, 35,   0
-	move VICEGRIP,     EFFECT_NORMAL_HIT,         55, NORMAL,       100, 30,   0
-	move GUILLOTINE,   EFFECT_OHKO,                0, NORMAL,        30,  5,   0
-	move RAZOR_WIND,   EFFECT_RAZOR_WIND,         80, NORMAL,        75, 10,   0
+	move BUGBITE,      EFFECT_NORMAL_HIT,         40, BUG,          100, 30,   0
+	move NIGHT_SLASH,  EFFECT_SP_DEF_DOWN_HIT,    90, DARK,         100, 20,  20
+	move AIR_SLASH,    EFFECT_FLINCH_HIT,         80, FLYING,        95, 20,  30
 	move SWORDS_DANCE, EFFECT_ATTACK_UP_2,         0, NORMAL,       100, 30,   0
-	move CUT,          EFFECT_NORMAL_HIT,         50, NORMAL,        95, 30,   0
+	move CUT,          EFFECT_DEF_DOWN_HIT,       50, NORMAL,        95, 30,  40
 	move GUST,         EFFECT_GUST,               40, FLYING,       100, 35,   0
 	move WING_ATTACK,  EFFECT_NORMAL_HIT,         60, FLYING,       100, 35,   0
-	move WHIRLWIND,    EFFECT_FORCE_SWITCH,        0, NORMAL,       100, 20,   0
-	move FLY,          EFFECT_FLY,                70, FLYING,        95, 15,   0
-	move BIND,         EFFECT_TRAP_TARGET,        15, NORMAL,        75, 20,   0
-	move SLAM,         EFFECT_NORMAL_HIT,         80, NORMAL,        75, 20,   0
-	move VINE_WHIP,    EFFECT_NORMAL_HIT,         35, GRASS,        100, 10,   0
-	move STOMP,        EFFECT_STOMP,              65, NORMAL,       100, 20,  30
+	move HURRICANE,    EFFECT_CONFUSE_HIT,       120, FLYING,       80,  20,  30
+	move FLY,          EFFECT_FLY,                90, FLYING,        95, 20,   0
+	move BIND,         EFFECT_TRAP_TARGET,        60, NORMAL,       100, 20,   0
+	move POISON_JAB,   EFFECT_POISON_HIT,         80, POISON,        95, 20,  30
+	move VINE_WHIP,    EFFECT_NORMAL_HIT,         40, GRASS,        100, 20,   0
+	move STOMP,        EFFECT_STOMP,              75, NORMAL,       100, 20,  30
 	move DOUBLE_KICK,  EFFECT_DOUBLE_HIT,         30, FIGHTING,     100, 30,   0
-	move MEGA_KICK,    EFFECT_NORMAL_HIT,        120, NORMAL,        75,  5,   0
+	move MEGA_KICK,    EFFECT_FLINCH_HIT,        100, FIGHTING,      90, 20,  30
 	move JUMP_KICK,    EFFECT_JUMP_KICK,          70, FIGHTING,      95, 25,   0
-	move ROLLING_KICK, EFFECT_FLINCH_HIT,         60, FIGHTING,      85, 15,  30
-	move SAND_ATTACK,  EFFECT_ACCURACY_DOWN,       0, GROUND,       100, 15,   0
-	move HEADBUTT,     EFFECT_FLINCH_HIT,         70, NORMAL,       100, 15,  30
-	move HORN_ATTACK,  EFFECT_NORMAL_HIT,         65, NORMAL,       100, 25,   0
-	move FURY_ATTACK,  EFFECT_MULTI_HIT,          15, NORMAL,        85, 20,   0
-	move HORN_DRILL,   EFFECT_OHKO,                1, NORMAL,        30,  5,   0
-	move TACKLE,       EFFECT_NORMAL_HIT,         35, NORMAL,        95, 35,   0
-	move BODY_SLAM,    EFFECT_PARALYZE_HIT,       85, NORMAL,       100, 15,  30
-	move WRAP,         EFFECT_TRAP_TARGET,        15, NORMAL,        85, 20,   0
-	move TAKE_DOWN,    EFFECT_RECOIL_HIT,         90, NORMAL,        85, 20,   0
-	move THRASH,       EFFECT_RAMPAGE,            90, NORMAL,       100, 20,   0
-	move DOUBLE_EDGE,  EFFECT_RECOIL_HIT,        120, NORMAL,       100, 15,   0
+	move ROLLING_KICK, EFFECT_FLINCH_HIT,         70, FIGHTING,      95, 25,  30
+	move SAND_ATTACK,  EFFECT_ACCURACY_DOWN_HIT,  40, GROUND,       100, 25,  40
+	move HEADBUTT,     EFFECT_FLINCH_HIT,         60, NORMAL,       100, 25,  30
+	move HORN_ATTACK,  EFFECT_NORMAL_HIT,         60, NORMAL,       100, 25,   0
+	move FURY_ATTACK,  EFFECT_MULTI_HIT,          25, NORMAL,        90, 20,   0
+	move HORN_DRILL,   EFFECT_NORMAL_HIT,        140, NORMAL,        80, 15,   0
+	move TACKLE,       EFFECT_NORMAL_HIT,         40, NORMAL,       100, 35,   0
+	move BODY_SLAM,    EFFECT_SPEED_DOWN_HIT,     90, NORMAL,       100, 15,  50
+	move WRAP,         EFFECT_TRAP_TARGET,        35, NORMAL,        95, 20,   0
+	move TAKE_DOWN,    EFFECT_RECOIL_HIT,        100, NORMAL,        95, 20,   0
+	move BERSERK,      EFFECT_MULTI_HIT,          40, NORMAL,        80, 20,   0
+	move DOUBLE_EDGE,  EFFECT_RECOIL_HIT,        120, NORMAL,       100, 25,   0
 	move TAIL_WHIP,    EFFECT_DEFENSE_DOWN,        0, NORMAL,       100, 30,   0
 	move POISON_STING, EFFECT_POISON_HIT,         15, POISON,       100, 35,  30
 	move TWINEEDLE,    EFFECT_POISON_MULTI_HIT,   25, BUG,          100, 20,  20
