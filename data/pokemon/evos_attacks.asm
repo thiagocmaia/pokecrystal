@@ -280,172 +280,255 @@ PidgeyEvosAttacks:
 	db EVOLVE_LEVEL, 25, PIDGEOTTO
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 5, SAND_ATTACK
-	db 9, GUST
+	db 5, PECK
+	db 10, MUD_SLAP
 	db 15, QUICK_ATTACK
-	db 21, WHIRLWIND
-	db 29, WING_ATTACK
-	db 37, AGILITY
-	db 47, MIRROR_MOVE
+	db 20, TWISTER
+	db 25, WING_ATTACK
+	db 30, HEADBUTT
+	db 35, MIRROR_MOVE
+	db 40, FIRE_SPIN
+	db 45, DOUBLE_TEAM
+	db 50, TAKE_DOWN
+	db 55, STEEL_WING
+	db 60, WHIRLWIND
+	db 65, EXTREME_SPEED
+	db 70, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 PidgeottoEvosAttacks:
 	db EVOLVE_LEVEL, 50, PIDGEOT
-	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, SAND_ATTACK
-	db 1, GUST
-	db 5, SAND_ATTACK
-	db 9, GUST
+	db 5, PECK
+	db 10, MUD_SLAP
 	db 15, QUICK_ATTACK
-	db 23, WHIRLWIND
-	db 33, WING_ATTACK
-	db 43, AGILITY
-	db 55, MIRROR_MOVE
+	db 20, TWISTER
+	db 25, WING_ATTACK
+	db 30, HEADBUTT
+	db 35, MIRROR_MOVE
+	db 40, FIRE_SPIN
+	db 45, DOUBLE_TEAM
+	db 50, TAKE_DOWN
+	db 55, STEEL_WING
+	db 60, WHIRLWIND
+	db 65, EXTREME_SPEED
+	db 70, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 PidgeotEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, SAND_ATTACK
-	db 1, GUST
-	db 1, QUICK_ATTACK
-	db 5, SAND_ATTACK
-	db 9, GUST
+	db 5, PECK
+	db 10, MUD_SLAP
 	db 15, QUICK_ATTACK
-	db 23, WHIRLWIND
-	db 33, WING_ATTACK
-	db 46, AGILITY
-	db 61, MIRROR_MOVE
+	db 20, TWISTER
+	db 25, WING_ATTACK
+	db 30, HEADBUTT
+	db 35, MIRROR_MOVE
+	db 40, FIRE_SPIN
+	db 45, DOUBLE_TEAM
+	db 50, TAKE_DOWN
+	db 55, STEEL_WING
+	db 60, WHIRLWIND
+	db 65, EXTREME_SPEED
+	db 70, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 RattataEvosAttacks:
 	db EVOLVE_LEVEL, 40, RATICATE
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, TAIL_WHIP
-	db 7, QUICK_ATTACK
-	db 13, HYPER_FANG
-	db 20, FOCUS_ENERGY
-	db 27, PURSUIT
-	db 34, SUPER_FANG
+	db 5, LEER
+	db 10, PURSUIT
+	db 15, QUICK_ATTACK
+	db 20, MUD_SLAP
+	db 25, DOUBLE_TEAM
+	db 30, THIEF
+	db 35, DIG
+	db 40, TAKE_DOWN
+	db 45, SCARY_FACE
+	db 50, TOXIC
+	db 55, REST
+	db 55, SLEEP_TALK
+	db 60, SUPER_FANG
+	db 65, THRASH
+	db 70, HYPER_FANG
 	db 0 ; no more level-up moves
 
 RaticateEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, TAIL_WHIP
-	db 1, QUICK_ATTACK
-	db 7, QUICK_ATTACK
-	db 13, HYPER_FANG
-	db 20, SCARY_FACE
-	db 30, PURSUIT
-	db 40, SUPER_FANG
+	db 5, LEER
+	db 10, PURSUIT
+	db 15, QUICK_ATTACK
+	db 20, MUD_SLAP
+	db 25, DOUBLE_TEAM
+	db 30, THIEF
+	db 35, DIG
+	db 40, TAKE_DOWN
+	db 45, SCARY_FACE
+	db 50, TOXIC
+	db 55, REST
+	db 55, SLEEP_TALK
+	db 60, SUPER_FANG
+	db 65, THRASH
+	db 70, HYPER_FANG
 	db 0 ; no more level-up moves
 
 SpearowEvosAttacks:
 	db EVOLVE_LEVEL, 40, FEAROW
 	db 0 ; no more evolutions
 	db 1, PECK
-	db 1, GROWL
-	db 7, LEER
-	db 13, FURY_ATTACK
-	db 25, PURSUIT
-	db 31, MIRROR_MOVE
-	db 37, DRILL_PECK
-	db 43, AGILITY
+	db 5, LEER
+	db 10, RAGE
+	db 15, PURSUIT
+	db 20, WING_ATTACK
+	db 25, FURY_ATTACK
+	db 30, SCARY_FACE
+	db 35, MIRROR_MOVE
+	db 40, DRILL_PECK
+	db 45, FAINT_ATTACK
+	db 50, AGILITY
+	db 55, FRUSTRATION
+	db 60, STEEL_WING
+	db 65, LOCK_ON
+	db 70, SKY_ATTACK
 	db 0 ; no more level-up moves
 
 FearowEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
-	db 1, GROWL
-	db 1, LEER
-	db 1, FURY_ATTACK
-	db 7, LEER
-	db 13, FURY_ATTACK
-	db 26, PURSUIT
-	db 32, MIRROR_MOVE
+	db 5, LEER
+	db 10, RAGE
+	db 15, PURSUIT
+	db 20, WING_ATTACK
+	db 25, FURY_ATTACK
+	db 30, SCARY_FACE
+	db 35, MIRROR_MOVE
 	db 40, DRILL_PECK
-	db 47, AGILITY
+	db 45, FAINT_ATTACK
+	db 50, AGILITY
+	db 55, FRUSTRATION
+	db 60, STEEL_WING
+	db 65, LOCK_ON
+	db 70, SKY_ATTACK
 	db 0 ; no more level-up moves
 
 EkansEvosAttacks:
 	db EVOLVE_LEVEL, 40, ARBOK
 	db 0 ; no more evolutions
-	db 1, WRAP
-	db 1, LEER
-	db 9, POISON_STING
-	db 15, BITE
-	db 23, GLARE
-	db 29, SCREECH
-	db 37, ACID
-	db 43, HAZE
+	db 1, RAGE
+	db 5, LEER
+	db 10, POISON_STING
+	db 15, BIND
+	db 20, BITE
+	db 25, GLARE
+	db 30, ACID
+	db 35, PIN_MISSILE
+	db 40, DRAGONBREATH
+	db 45, DIG
+	db 50, SLUDGE
+	db 55, CRUNCH
+	db 60, DRAGON_RAGE
+	db 65, IRON_TAIL
+	db 70, SLUDGE_BOMB
 	db 0 ; no more level-up moves
 
 ArbokEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, WRAP
-	db 1, LEER
-	db 1, POISON_STING
-	db 1, BITE
-	db 9, POISON_STING
-	db 15, BITE
+	db 1, RAGE
+	db 5, LEER
+	db 10, POISON_STING
+	db 15, BIND
+	db 20, BITE
 	db 25, GLARE
-	db 33, SCREECH
-	db 43, ACID
-	db 51, HAZE
+	db 30, ACID
+	db 35, PIN_MISSILE
+	db 40, DRAGONBREATH
+	db 45, DIG
+	db 50, SLUDGE
+	db 55, CRUNCH
+	db 60, DRAGON_RAGE
+	db 65, IRON_TAIL
+	db 70, SLUDGE_BOMB
 	db 0 ; no more level-up moves
 
 PikachuEvosAttacks:
 	db EVOLVE_LEVEL, 50, RAICHU
 	db 0 ; no more evolutions
-	db 1, THUNDERSHOCK
-	db 1, GROWL
-	db 6, TAIL_WHIP
-	db 8, THUNDER_WAVE
-	db 11, QUICK_ATTACK
-	db 15, DOUBLE_TEAM
-	db 20, SLAM
-	db 26, THUNDERBOLT
-	db 33, AGILITY
-	db 41, THUNDER
-	db 50, LIGHT_SCREEN
+	db 1, TACKLE
+	db 5, GROWL
+	db 10, THUNDERSHOCK
+	db 15, QUICK_ATTACK
+	db 20, SWIFT
+	db 25, SPARK
+	db 30, MACH_PUNCH
+	db 35, DIZZY_PUNCH
+	db 40, THUNDER_PUNCH
+	db 45, DOUBLE_TEAM
+	db 50, IRON_TAIL
+	db 55, THRASH
+	db 60, SURF
+	db 65, THUNDER
+	db 70, RAIN_DANCE
 	db 0 ; no more level-up moves
 
 RaichuEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, THUNDERSHOCK
-	db 1, TAIL_WHIP
-	db 1, QUICK_ATTACK
-	db 1, THUNDERBOLT
+	db 1, TACKLE
+	db 5, GROWL
+	db 10, THUNDERSHOCK
+	db 15, QUICK_ATTACK
+	db 20, SWIFT
+	db 25, SPARK
+	db 30, MACH_PUNCH
+	db 35, DIZZY_PUNCH
+	db 40, THUNDER_PUNCH
+	db 45, DOUBLE_TEAM
+	db 50, IRON_TAIL
+	db 55, SURF
+	db 60, MEGA_PUNCH
+	db 65, THUNDER
+	db 70, RAIN_DANCE
 	db 0 ; no more level-up moves
 
 SandshrewEvosAttacks:
 	db EVOLVE_LEVEL, 40, SANDSLASH
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 6, DEFENSE_CURL
-	db 11, SAND_ATTACK
-	db 17, POISON_STING
-	db 23, SLASH
-	db 30, SWIFT
-	db 37, FURY_SWIPES
-	db 45, SANDSTORM
+	db 5, MUD_SLAP
+	db 10, POISON_STING
+	db 15, METAL_CLAW
+	db 20, SANDSTORM
+	db 25, MAGNITUDE
+	db 30, SLASH
+	db 35, SAND_ATTACK
+	db 40, DIG
+	db 45, FURY_SWIPES
+	db 50, PIN_MISSILE
+	db 55, SLAM
+	db 60, EARTHQUAKE
+	db 65, GUILLOTINE
+	db 70, SKULL_BASH
 	db 0 ; no more level-up moves
 
 SandslashEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 1, DEFENSE_CURL
-	db 1, SAND_ATTACK
-	db 6, DEFENSE_CURL
-	db 11, SAND_ATTACK
-	db 17, POISON_STING
-	db 24, SLASH
-	db 33, SWIFT
-	db 42, FURY_SWIPES
-	db 52, SANDSTORM
+	db 5, MUD_SLAP
+	db 10, POISON_STING
+	db 15, METAL_CLAW
+	db 20, SANDSTORM
+	db 25, MAGNITUDE
+	db 30, SLASH
+	db 35, SAND_ATTACK
+	db 40, DIG
+	db 45, FURY_SWIPES
+	db 50, PIN_MISSILE
+	db 55, SLAM
+	db 60, EARTHQUAKE
+	db 65, GUILLOTINE
+	db 70, SKULL_BASH
 	db 0 ; no more level-up moves
 
 NidoranFEvosAttacks:
